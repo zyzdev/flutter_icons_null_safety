@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+import 'package:flutter_icons_null_safety/flutter_icons.dart';
 
 void main() => runApp(MyApp());
 
@@ -36,7 +36,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -56,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Icon(FlutterIcons.ab_testing_mco),
             Icon(AntDesign.stepforward),
 //            Icon(Ionicons.ios_search),
 //            Icon(FontAwesome.glass),

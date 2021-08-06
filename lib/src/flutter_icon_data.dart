@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 /// It is used to generate IconData under different icon sets
 class FlutterIconData extends IconData {
   const FlutterIconData(int codePoint, String fontFamily)
-      : super(codePoint, fontFamily: fontFamily, fontPackage: "flutter_icons");
+      : super(codePoint,
+            fontFamily: fontFamily, fontPackage: "flutter_icons_null_safety");
 
   const FlutterIconData.ionicons(int codePoint) : this(codePoint, "Ionicons");
 
@@ -12,11 +13,14 @@ class FlutterIconData extends IconData {
   const FlutterIconData.fontAwesome(int codePoint)
       : this(codePoint, "FontAwesome");
 
-  const FlutterIconData.fontAwesome5Brands(int codePoint):this(codePoint,"FontAwesome5_Brands");
+  const FlutterIconData.fontAwesome5Brands(int codePoint)
+      : this(codePoint, "FontAwesome5_Brands");
 
-  const FlutterIconData.fontAwesome5(int codePoint):this(codePoint,"FontAwesome5");
+  const FlutterIconData.fontAwesome5(int codePoint)
+      : this(codePoint, "FontAwesome5");
 
-  const FlutterIconData.fontAwesome5Solid(int codePoint):this(codePoint,"FontAwesome5_Solid");
+  const FlutterIconData.fontAwesome5Solid(int codePoint)
+      : this(codePoint, "FontAwesome5_Solid");
 
   const FlutterIconData.entypo(int codePoint) : this(codePoint, "Entypo");
 
@@ -40,5 +44,6 @@ class FlutterIconData extends IconData {
 
   const FlutterIconData.zocial(int codePoint) : this(codePoint, "Zocial");
 
-  const FlutterIconData.weatherIcons(int codePoint) : this(codePoint,"WeatherIcons");
+  const FlutterIconData.weatherIcons(int codePoint)
+      : this(codePoint, "WeatherIcons");
 }

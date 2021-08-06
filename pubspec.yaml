@@ -1,11 +1,10 @@
-name: flutter_icons
-description: Customizable Icons for Flutter，you can use with over 3K+ icons in your flutter project
-version: 1.1.0
-author: flutter-studio<2534290808@qq.com>
+name: flutter_icons_null_safety
+description: A null-safety version of plugin flutter_icons. Customizable Icons for Flutter，you can use with over 3K+ icons in your flutter project
+version: 0.0.1
 homepage: https://github.com/flutter-studio/flutter-icons.git
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
