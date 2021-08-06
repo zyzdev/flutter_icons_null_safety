@@ -2,7 +2,7 @@ import 'dart:io';
 
 main(List<String> args) {
   Directory directory = Directory("../lib/src");
-  File flutterIconFile = File('../lib/src/flutter_icons.dart');
+  File flutterIconFile = File('../lib/src/flutter_icons_null_safety.dart');
   List<File> files = directory.listSync().map((e) => File(e.path)).toList();
   String str = '''
 import 'package:flutter/material.dart';
