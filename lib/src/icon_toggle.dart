@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
@@ -88,7 +87,9 @@ class _IconToggleState extends State<IconToggle>
             reverseDuration: widget.reverseDuration,
             transitionBuilder: widget.transitionBuilder,
             child: Icon(
-              widget.value ? widget.selectedIconData : widget.unselectedIconData,
+              widget.value
+                  ? widget.selectedIconData
+                  : widget.unselectedIconData,
               color: widget.value ? widget.activeColor : widget.inactiveColor,
               size: 22,
               key: ValueKey<bool>(widget.value),

@@ -1,6 +1,6 @@
 name: flutter_icons_null_safety
 description: A null-safety version of plugin flutter_icons. Customizable Icons for Flutter，you can use with over 3K+ icons in your flutter project
-version: 0.0.1
+version: 1.1.0
 homepage: https://github.com/flutter-studio/flutter-icons.git
 
 environment:
